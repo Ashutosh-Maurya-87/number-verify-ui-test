@@ -12,7 +12,7 @@ const SelectCompnent = () => {
     };
 
     return (
-        <FormControl sx={{ m: 1, minWidth: 120 }} size="small">
+        <FormControl sx={{minWidth: 60,p:0 }} size="small">
             <InputLabel id="demo-select-small-label">EN</InputLabel>
             <Select
                 labelId="demo-select-small-label"
